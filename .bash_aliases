@@ -19,7 +19,7 @@ alias eclipse='$HOME/IDEs/eclipse/eclipse &>/dev/null'
 alias pycharm='$HOME/IDEs/pycharm/bin/pycharm.sh &>/dev/null'
 
 #Fuck you Sudo!
-alias fuckSudo='echo sraone\n | sudo $(history -p \!\!)'
+alias fucksudo='echo sraone\n | sudo $(history -p \!\!)'
 
 #multi platform hiccups!
 alias cls="clear" # grown with it!
