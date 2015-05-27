@@ -1,0 +1,53 @@
+# Sensible
+https://github.com/tpope/vim-sensible.git
+
+#Abolish - Easier Abbrivations
+https://github.com/tpope/vim-abolish.git
+
+#Repeat - Repeat Last commands with "."
+https://github.com/tpope/vim-repeat.git
+
+#Surround - Surrounds the textobjects
+https://github.com/tpope/vim-surround.git
+
+#Markdown - Supoort for Markdown files
+https://github.com/tpope/vim-markdown.git
+
+#Jdaddy - JSON support for vim
+https://github.com/tpope/vim-jdaddy.git
+
+#Vivid chalk - Color scheme
+https://github.com/tpope/vim-vividchalk.git
+
+#Gundo
+https://github.com/sjl/gundo.vim.git
+
+#JEDI-VIM for python
+https://github.com/davidhalter/jedi-vim.git
+
+#MRU - Most Recently used
+https://github.com/vim-scripts/mru.vim.git
+
+#Nerd Tree
+https://github.com/jistr/vim-nerdtree-tabs.git
+
+#Power Line - Status line for VIm
+https://github.com/powerline/powerline.git
+
+#Supertab - Tab completion for Vim
+https://github.com/ervandew/supertab.git
+
+#Syntastic - Error flagging for Vim
+https://github.com/scrooloose/syntastic.git
+
+#Tcomment - Commenting utility
+https://github.com/tomtom/tcomment_vim.git
+
+# UltiSnips
+https://github.com/SirVer/ultisnips.git
+
+#Airline - status line 
+https://github.com/bling/vim-airline.git
+
+#VimPdb - Debugger for Python
+https://github.com/gotcha/vimpdb.git
