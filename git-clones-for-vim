@@ -48,7 +48,7 @@ git clone  https://github.com/sjl/gundo.vim.git -q
 echo "Done"
 
 echo -ne "JEDI-VIM for python ... "
-#git clone  https://github.com/davidhalter/jedi-vim.git -q
+git clone  https://github.com/davidhalter/jedi-vim.git -q
 echo "Done"
 
 echo -ne "MRU - Most Recently used ... "
@@ -56,7 +56,7 @@ git clone  https://github.com/vim-scripts/mru.vim.git -q
 echo "Done"
 
 echo -ne "Nerd Tree ... "
-git clone  https://github.com/jistr/vim-nerdtree-tabs.git -q
+git clone  https://github.com/scrooloose/nerdtree.git  -q
 echo "Done"
 
 echo -ne "Power Line - Status line for VIm ... "
@@ -87,5 +87,8 @@ echo -ne "VimPdb - Debugger for Python ... "
 git clone  https://github.com/gotcha/vimpdb.git -q
 echo "Done"
 
+echo -ne "Fugitive - A command line wrapper for GIT ... "
+git clone https://github.com/tpope/vim-fugitive.git -q
+echo "Done."
 
 echo -e  "All the packages are installed (cloned) for vim ... \nNow you can enjoy your own vim fell on this machine\nHappy Vimming .... !"

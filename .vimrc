@@ -19,7 +19,7 @@ syntax on
 colo desert
 " set gfn=Terminal:h14:cOEM
 " set gfn=Source_Code_Pro_Medium:h14:cANSI
-set gfn=Monaco:h12:b:cANSI
+set gfn=Monaco\ 11
 
 " My Status
 set laststatus=2
