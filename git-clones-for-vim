@@ -1,53 +1,91 @@
-# Sensible
-https://github.com/tpope/vim-sensible.git
+#Create .vim if not existing in the home folder, along with autoload and bundle folders
 
-#Abolish - Easier Abbrivations
-https://github.com/tpope/vim-abolish.git
+mkdir -p ~/.vim/autoload 
+mkdir -p ~/.vim/bundle
 
-#Repeat - Repeat Last commands with "."
-https://github.com/tpope/vim-repeat.git
+echo -ne "Installing Pathogen ... "
+git clone https://github.com/tpope/vim-pathogen.git -q
 
-#Surround - Surrounds the textobjects
-https://github.com/tpope/vim-surround.git
+mv vim-pathogen/autoload/* ~/.vim/autoload
 
-#Markdown - Supoort for Markdown files
-https://github.com/tpope/vim-markdown.git
+rm -rf vim-pathogen
+echo "Done"
 
-#Jdaddy - JSON support for vim
-https://github.com/tpope/vim-jdaddy.git
+cd ~/.vim/bundle
 
-#Vivid chalk - Color scheme
-https://github.com/tpope/vim-vividchalk.git
+echo -e "******************** Installing Packages ************************"
 
-#Gundo
-https://github.com/sjl/gundo.vim.git
+echo -ne "Sensible ... "
+git clone  https://github.com/tpope/vim-sensible.git -q
+echo "Done"
 
-#JEDI-VIM for python
-https://github.com/davidhalter/jedi-vim.git
+echo -ne "Abolish - Easier Abbrivations ... "
+git clone  https://github.com/tpope/vim-abolish.git -q
+echo "Done"
 
-#MRU - Most Recently used
-https://github.com/vim-scripts/mru.vim.git
+echo -ne "Repeat - Repeat Last commands with "." ... "
+git clone  https://github.com/tpope/vim-repeat.git -q
+echo "Done"
 
-#Nerd Tree
-https://github.com/jistr/vim-nerdtree-tabs.git
+echo -ne "Surround - Surrounds the textobjects ... "
+git clone  https://github.com/tpope/vim-surround.git -q
+echo "Done"
 
-#Power Line - Status line for VIm
-https://github.com/powerline/powerline.git
+echo -ne "Markdown - Supoort for Markdown files ... "
+git clone  https://github.com/tpope/vim-markdown.git -q
+echo "Done"
 
-#Supertab - Tab completion for Vim
-https://github.com/ervandew/supertab.git
+echo -ne "Jdaddy - JSON support for vim ... "
+git clone  https://github.com/tpope/vim-jdaddy.git -q
+echo "Done"
 
-#Syntastic - Error flagging for Vim
-https://github.com/scrooloose/syntastic.git
+echo -ne "Vivid chalk - Color scheme ... "
+git clone  https://github.com/tpope/vim-vividchalk.git -q
+echo "Done"
 
-#Tcomment - Commenting utility
-https://github.com/tomtom/tcomment_vim.git
+echo -ne "Gundo ... "
+git clone  https://github.com/sjl/gundo.vim.git -q
+echo "Done"
 
-# UltiSnips
-https://github.com/SirVer/ultisnips.git
+echo -ne "JEDI-VIM for python ... "
+#git clone  https://github.com/davidhalter/jedi-vim.git -q
+echo "Done"
 
-#Airline - status line 
-https://github.com/bling/vim-airline.git
+echo -ne "MRU - Most Recently used ... "
+git clone  https://github.com/vim-scripts/mru.vim.git -q
+echo "Done"
 
-#VimPdb - Debugger for Python
-https://github.com/gotcha/vimpdb.git
+echo -ne "Nerd Tree ... "
+git clone  https://github.com/jistr/vim-nerdtree-tabs.git -q
+echo "Done"
+
+echo -ne "Power Line - Status line for VIm ... "
+git clone  https://github.com/powerline/powerline.git -q
+echo "Done"
+
+echo -ne "Supertab - Tab completion for Vim ... "
+git clone  https://github.com/ervandew/supertab.git -q
+echo "Done"
+
+echo -ne "Syntastic - Error flagging for Vim ... "
+git clone  https://github.com/scrooloose/syntastic.git -q
+echo "Done"
+
+echo -ne "Tcomment - Commenting utility ... "
+git clone  https://github.com/tomtom/tcomment_vim.git -q
+echo "Done"
+
+echo -ne " UltiSnips ... "
+git clone  https://github.com/SirVer/ultisnips.git -q
+echo "Done"
+
+echo -ne "Airline - status line  ... "
+git clone  https://github.com/bling/vim-airline.git -q
+echo "Done"
+
+echo -ne "VimPdb - Debugger for Python ... "
+git clone  https://github.com/gotcha/vimpdb.git -q
+echo "Done"
+
+
+echo -e  "All the packages are installed (cloned) for vim ... \nNow you can enjoy your own vim fell on this machine\nHappy Vimming .... !"

@@ -198,7 +198,7 @@ set foldmethod=indent
 set foldlevel=99
 
 " Correct me Please!
-source $VIM/.mySpellings.vim
+" source $VIM/.mySpellings.vim
 
 " My details for snipmate!
 let g:snips_author = "Sravan K Ghantasala"

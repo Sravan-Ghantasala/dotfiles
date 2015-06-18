@@ -5,16 +5,16 @@ HISTCONTROL=erasedups
 HISTIGNORE=”cls:clear:exit:history”
 
 #My shell command suggestion function
-PROMPT_COMMAND=suggestMe
+#PROMPT_COMMAND=suggestMe
 
-function suggestMe(){
-    [[ $? -ne 0 ]] && {
-        echo "Command Intelligence function version : 0.4"
-        lastcmd=`history | tail -1 | cut -d ' ' -f 3-`
-        #TODO : add that python script here http://norvig.com/spell-correct.html
-        newcmd=${lastcmd}
-        read -p "Do you mean ->${newcmd} ? [Y/n]" choice 
-        #python commandChecker.py ${lastcmd}
-        echo ''
-    }
-}
+#function suggestMe(){
+#    [[ $? -ne 0 ]] && {
+#        echo "Command Intelligence function version : 0.4"
+#        lastcmd=`history | tail -1 | cut -d ' ' -f 3-`
+#        #TODO : add that python script here http://norvig.com/spell-correct.html
+#        newcmd=${lastcmd}
+#        read -p "Do you mean ->${newcmd} ? [Y/n]" choice 
+#        #python commandChecker.py ${lastcmd}
+#        echo ''
+#    }
+#}
