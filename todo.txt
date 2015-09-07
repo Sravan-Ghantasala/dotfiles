@@ -1,0 +1,5 @@
+#TODOs
+
+    1. run_me_at_first_installation is hardcoded with apt-get change it to generic based on the OS been used
+
+
