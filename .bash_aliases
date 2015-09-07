@@ -21,7 +21,7 @@ alias pycharm='$HOME/IDEs/pycharm/bin/pycharm.sh &>/dev/null'
 #Fuck you Sudo!
 alias fucksudo='echo sraone\n | sudo $(history -p \!\!)'
 
-#multi platform hiccups!
+#multi-platform hiccups!
 alias cls="clear" # grown with it!
 
 
